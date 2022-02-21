@@ -1,38 +1,303 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.new-adventure-stories {
+    background: #f9f9f9;
+    padding: 100px 0px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .new-tophead {
+    font-size: 28px;
+    color: #333333;
+    margin: 0 0 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .new-adventure-rytimg img {
+    border-radius: 15px;
   }
-}
+  
+  .new-adventure-content h5 {
+    font-size: 21px;
+    color: #333333;
+    margin: 0 0 2px;
+  }
+  
+  .new-adventure-content .advstori-time {
+    font-size: 18px;
+    color: #4f4f4f;
+    margin: 0 0 10px;
+  }
+  
+  .new-adventure-content .advstori-para {
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin: 0 0 10px;
+  }
+  
+  .new-adventure-content a {
+    color: #ed1c24;
+    font-size: 18px;
+  }
+  
+  .adventstories-wrapper .advstor-list {
+    margin-bottom: 20px;
+  }
+  
+  .new-adventure-rytwrapper .advstor-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .new-adventure-rytwrapper .advstor-list .new-adventure-rytimg {
+    max-width: 160px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 160px;
+            flex: 0 0 160px;
+  }
+  
+  .new-adventure-rytwrapper .advstor-list .new-adventure-content {
+    max-width: calc(100% - 160px);
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 160px);
+            flex: 0 0 calc(100% - 160px);
+    padding-left: 30px;
+  }
+  
+  section.new-downldaccess {
+    background: #1f2d2a;
+    padding-top: 50px;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-leftimg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-leftimg img {
+    max-width: 260px;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-rytside {
+    padding-top: 40px;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-rytside h5 {
+    font-size: 22px;
+    color: #ff8800;
+    margin-bottom: 22px;
+    margin-top: 0;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-rytside .downl-appicon a {
+    display: inline-block;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-rytside .downl-appicon a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  section.new-downldaccess .downldaccess-wrapper .downldaccess-rytside .downl-appicon a img {
+    max-width: 110px;
+  }
+  
+  /* slider */
+  .new-slider-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 20px 0px 100px;
+  }
+  
+  .slidercard {
+    max-width: 350px;
+    border: 1px solid #e0e0e0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 12px;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  
+  .slidercard .starticon-box {
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    background-color: #fff;
+    right: 12px;
+    top: 12px;
+    border-radius: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .slidercard .starticon-box .staricon {
+    margin-right: 5px;
+    width: 16px;
+    height: 17px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+  .slidercard .activimg {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+  }
+  
+  .slidercard .slider-content {
+    padding: 12px 22px;
+  }
+  
+  .slidercard .slider-content .activname {
+    font-size: 21px;
+    font-weight: 700;
+    color: #333333;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .slidercard .slider-content .activcnty {
+    font-size: 14px;
+    color: #333333;
+    margin: 0px 0px 10px 0px;
+  }
+  
+  .slidercard .slider-content .newpric-book {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .slidercard .slider-content .newpric-book .prcst {
+    color: #333333;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  .slidercard .slider-content .newpric-book .bookbtn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 10px 15px;
+    background-color: #1f2d2a;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .new-gallerylist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .new-gallerylist .slidergalylst {
+    position: relative;
+    max-width: 225px;
+    height: 265px;
+    margin-bottom: 25px;
+  }
+  
+  .new-gallerylist .slidergalylst:not(:last-child) {
+    margin-right: 25px;
+  }
+  
+  .new-gallerylist .slidergalylst .destdist {
+    color: #fff;
+    top: 25px;
+    left: 25px;
+    font-size: 16px;
+    position: absolute;
+  }
+  
+  .new-gallerylist .slidergalylst .galyimg {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .new-gallerylist .slidergalylst .galstcont {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+  }
+  
+  .new-gallerylist .slidergalylst .galstcont .galname {
+    margin: 0;
+    color: #fff;
+    font-size: 21px;
+  }
+  
+/* Get Inspired */
+  .newget-inspired{
+    background: #1F2D2A;
+    padding: 80px 0px;
+
+  }
+  .new-activgallerylist .activgalylst {
+    position: relative;
+    max-width: 258px;
+    height: 185px;
+    margin-bottom: 25px;
+  }
+  
+  .new-activgallerylist .activgalylst:not(:last-child) {
+    margin-right: 25px;
+  }
+  
+  .new-activgallerylist .activgalylst .activityimage {
+    border-radius: 10px;
+    max-width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .new-activgallerylist .activgalylst .galactcont {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+  }
+  
+  .new-activgallerylist .activgalylst .galactcont .galactname {
+    margin: 0;
+    color: #fff;
+    font-size: 21px;
+  }
+
+
+

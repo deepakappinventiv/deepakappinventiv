@@ -1,0 +1,325 @@
+.newactivity-banner {
+  position: relative;
+  margin-bottom: 20px;
+  .newactiv-bnrimg {
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+.activListSlider {
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+
+  .newactivity-content {
+    margin-top: 15px;
+
+    h5 {
+      font-size: 20px;
+      margin: 0 0 10px 0;
+      color: #ff8800;
+    }
+
+    p {
+      color: #bdbdbd;
+      margin: 0px;
+      font-size: 14px;
+    }
+  }
+}
+
+// New Activity Experience
+.newactivity-experiencewraper {
+  max-width: 728px;
+  .newact-exphead {
+    background-color: #1f2d2a;
+    padding: 40px;
+    h5 {
+      color: #fff;
+      margin: 0 0 20px 0px;
+      font-size: 28px;
+    }
+  }
+  .newact-revsave {
+    display: flex;
+    justify-content: space-between;
+    p {
+      color: #fff;
+      margin: 0;
+      font-size: 16px;
+    }
+    .newactreview {
+      span {
+        color: #ff8800;
+      }
+      color: #bdbdbd;
+    }
+    .newactsave {
+      color: #ff8800;
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .newacexper-wraper {
+    background-color: #f9f9f9;
+    padding: 0px 23px 40px 39px;
+    .newactexpbody {
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 40px;
+      padding-top: 40px;
+      .newacexphead {
+        color: #333333;
+        font-size: 21px;
+        margin: 0px 0px 15px 0px;
+        position: relative;
+        border-left: 4px solid #ff8800;
+        padding-left: 10px;
+      }
+      p {
+        color: #4f4f4f;
+        font-size: 16px;
+        margin: 0px 0px 20px 0px;
+        line-height: 24px;
+        &:last-child {
+          margin-bottom: 0px;
+        }
+      }
+      ul {
+        margin: 0px;
+        li {
+          color: #333333;
+          font-size: 16px;
+          margin-bottom: 15px;
+          &:last-child {
+            margin-bottom: 0px;
+          }
+        }
+      }
+    }
+    .experreview-feedback {
+      padding-top: 40px;
+      .expfedbackhead {
+        font-size: 21px;
+        margin: 0px 0px 23px 0px;
+        border-left: 4px solid #ff8800;
+        padding-left: 10px;
+      }
+      .revfed-wrapper {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        .rew-ratno {
+          display: inline-block;
+          margin-right: 15px;
+          font-size: 24px;
+          color: #219653;
+        }
+        ul {
+          display: flex;
+          list-style: none;
+          padding-left: 0px;
+          margin: 0;
+        }
+        .totrevno {
+          display: inline-block;
+          margin-left: 15px;
+          font-size: 18px;
+          color: #333333;
+          text-transform: capitalize;
+        }
+      }
+      .exprevwrapper {
+        margin-bottom: 30px;
+        .newexreview-box {
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          margin-bottom: 20px;
+          .exprevimg {
+            width: 54px;
+            height: 54px;
+            flex: 0 0 54px;
+            object-fit: cover;
+            border-radius: 50%;
+          }
+          .exprevnamelist {
+            padding-left: 20px;
+            h6 {
+              color: #333333;
+              font-size: 18px;
+              margin: 0px 0px 5px 0px;
+            }
+            p {
+              font-size: 16px;
+              color: #4f4f4fcc;
+              margin: 0;
+            }
+          }
+        }
+        p {
+          color: #333333;
+          font-size: 16px;
+          line-height: 24px;
+          margin: 0;
+        }
+      }
+    }
+    .expreview-lodmor {
+      text-align: center;
+      a {
+        border: 1px solid #ff8800;
+        border-radius: 10px;
+        padding: 15px 40px;
+        color: #ff8800;
+        font-size: 18px;
+        display: inline-block;
+      }
+    }
+  }
+}
+
+// New Location
+
+.newlocatactivity-wraper {
+  background-color: #1f2d2a;
+  padding-top: 40px;
+  .locatactiv {
+    position: relative;
+    .locbanimg {
+      border-radius: 10px 10px 0px 0px;
+      width: 100%;
+      height: 355px;
+      display: flex;
+      object-fit: cover;
+    }
+    .locatactiv-content {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      left: 30px;
+      h5 {
+        font-size: 40px;
+        color: #fff;
+        margin: 0px 0px 40px 0px;
+      }
+      button {
+        background: #ff8800;
+        border-radius: 12px;
+        padding: 10px 30px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.locatsldwrap {
+  padding-top: 50px;
+  .newloctslid-head {
+    font-size: 40px;
+    font-weight: normal;
+    margin: 0px 0px 40px 0px;
+  }
+}
+
+.sm-sldwrap {
+  .smsglcont {
+    position: relative;
+    margin-right: 10px;
+    .actlocimage {
+      border-radius: 10px;
+      height: 80px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .actlocnme {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      color: #fff;
+      font-size: 14px;
+      margin: 0;
+    }
+  }
+}
+
+.newloctophead {
+  margin-top: 90px;
+  .newloctslid-head {
+    margin-bottom: 40px;
+  }
+  .locationlistwrap {
+    padding-bottom: 80px;
+    .locationlist-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+      h5 {
+        margin: 0;
+        font-size: 28px;
+        font-weight: normal;
+      }
+      a {
+        color: #ff8800;
+        border: 1px solid #ff8800;
+        border-radius: 5px;
+        padding: 12px 15px;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.expsharecomponent {
+  background-color: #1f2d2a;
+  padding: 80px 0px 100px;
+  h5{
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+    color: #fff;
+  }
+  p {
+    font-size: 28px;
+    color: #fff;
+    margin: 0px 0px 20px 0px;
+  }
+  .expsharecontwrap {
+    position: relative;
+    .exppictureimage {
+      border-radius: 10px;
+    }
+    .expshcont-upperpart {
+      position: absolute;
+      top:25px;
+      left: 25px;
+      max-width: 80%;
+      h6 {
+        font-size: 21px;
+        color: #fff;
+        margin: 0px 0px 15px 0px;
+      }
+      p {
+        font-size: 14px;
+        color: #fff;
+        margin: 0;
+      }
+    }
+    .expshcont-lowerpart{
+      position: absolute;
+      bottom: 20px;
+      margin: 0;
+      font-size: 16px;
+      color: #FF8800;
+      left: 25px;
+      cursor: pointer;
+    }
+  }
+}

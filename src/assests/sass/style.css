@@ -1,0 +1,35 @@
+.text-white {
+  color: #fff;
+}
+.text-center{
+  text-align: center;
+}
+
+.text-lggrey {
+  color: #828282;
+
+}
+
+.newsec-ctntwrap {
+  margin-bottom: 30px;
+}
+
+.newsec-hdng {
+  font-size: 28px;
+  margin: 0 0 5px 0px;
+}
+
+.newsec-prgh {
+  font-size: 18px;
+  margin: 0;
+}
+
+.newexp-catebtn {
+  color: #FF8800;
+  font-size: 18px;
+  padding: 17px 41px;
+  background-color: #0E120F;
+  text-decoration: none;
+  margin-top: 55px;
+  display: inline-block;
+}
