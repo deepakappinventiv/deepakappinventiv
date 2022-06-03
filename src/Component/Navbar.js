@@ -17,6 +17,12 @@ function Navbar() {
         <li>
           <Link to="/location">Location</Link>
         </li>
+        <li>
+          <Link to="/newlocation">New Location</Link>
+        </li>
+        <li>
+          <Link to="/newactivity">New Activity</Link>
+        </li>
       </ul>
 
     </div>

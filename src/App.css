@@ -126,6 +126,8 @@
   position: relative;
   margin-right: 10px;
   margin-left: 10px;
+  background-color: #fff;
+  min-height: 430px;
 }
 
 .slidercard .starticon-box {
@@ -158,6 +160,8 @@
 .slidercard .activimg {
   border-radius: 10px 10px 0px 0px;
   width: 100%;
+  height: 255px;
+  object-fit: cover;
 }
 
 .slidercard .slider-content {
@@ -251,14 +255,16 @@
 
 .slidergalylst .galstcont {
   position: absolute;
-  bottom: 25px;
-  left: 25px;
+  bottom: 15px;
+  left: 15px;
+  padding: 0px 10px 0px 0px;
+  min-height: 40px;
 }
 
 .slidergalylst .galstcont .galname {
   margin: 0;
   color: #fff;
-  font-size: 21px;
+  font-size: 18px;
 }
 
 /* Get Inspired */

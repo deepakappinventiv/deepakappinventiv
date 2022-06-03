@@ -25,7 +25,7 @@ function Activitycomponent() {
 
   return (
     <>
-      <section className=''>
+      <section className='activitycompowrap'>
         <div className='custom_container'>
           <div className='newactivity-banner'>
             <img src={activityBanner} alt='' className='newactiv-bnrimg' />
@@ -39,7 +39,7 @@ function Activitycomponent() {
                 <img src={activityName} alt='' style={activimgBorder} />
               </div>
               <div className='newactivity-content'>
-                <h5>LESSON</h5>
+                <h5>LESSON <span> > </span></h5>
                 <p>Perfect for beginners or those wanting to brush up on your technique.</p>
               </div>
             </div>
@@ -49,7 +49,7 @@ function Activitycomponent() {
                 <img src={activityName} alt='' style={activimgBorder} />
               </div>
               <div className='newactivity-content'>
-                <h5>BOARDSHOP</h5>
+                <h5>BOARDSHOP <span> > </span> </h5>
                 <p>Don’t have a board? Missing equipment? Get all your equipment here with rentals. </p>
               </div>
             </div>
@@ -59,7 +59,7 @@ function Activitycomponent() {
                 <img src={activityName} alt='' style={activimgBorder} />
               </div>
               <div className='newactivity-content'>
-                <h5>TOURS</h5>
+                <h5>TOURS <span> > </span></h5>
                 <p>Learning to surf with a group is a great way to share the experience of having fun in the ocean. </p>
               </div>
             </div>
