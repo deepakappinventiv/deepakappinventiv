@@ -23,6 +23,9 @@ function Navbar() {
         <li>
           <Link to="/newactivity">New Activity</Link>
         </li>
+        <li>
+          <Link to="/newmap">New Map</Link>
+        </li>
       </ul>
 
     </div>

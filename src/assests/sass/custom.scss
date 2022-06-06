@@ -498,23 +498,122 @@
 }
 
 .newactivitopwrp {
-h4 {
-  color: #fff;
+  h4 {
+    color: #fff;
     font-size: 22px;
     margin: 0px 0px 25px;
-}
+  }
 
-.newactivitslider {
-  display: flex;
+  .newactivitslider {
+    display: flex;
     margin: 0 -10px;
     flex-wrap: wrap;
-  .newactslidlist {
-    width: 33.33%;
-    padding: 0 10px;
-    margin-bottom: 20px;
-    .slidergalylst {
-      max-width: 100%;
+    .newactslidlist {
+      width: 33.33%;
+      padding: 0 10px;
+      margin-bottom: 20px;
+      .slidergalylst {
+        max-width: 100%;
+      }
     }
   }
 }
+
+// new map screen
+
+.newlocation-mapscreenwrap {
+  margin-bottom: 50px;
+  .newmaplocationouter {
+  }
+  .locatmapwrap {
+    padding-right: 20px;
+  }
+  .location-mapimg {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    &:not(:last-child){
+      border-bottom: 1px solid #BDBDBD;
+    }
+    .locmapimg {
+      img {
+        max-width: 190px;
+        height: 172px;
+        object-fit: cover;
+        border-radius: 10px;
+        flex: 0 0 190px;
+      }
+    }
+  }
+  .locmapcont {
+    padding-left: 20px;
+    h4 {
+      margin: 0 0px 8px;
+      font-size: 18px;
+    }
+    .locatrev-rating {
+      display: flex;
+      align-items: center;
+      margin-bottom: 8px;
+      p {
+        margin: 0px;
+        img {
+          width: 10px;
+          height: 10px;
+          margin-right: 5px;
+        }
+      }
+      span {
+        margin-left: 5px;
+        display: inline-block;
+      }
+    }
+  }
+  .locatdistance {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-right: 15px;
+    .locaname {
+      font-size: 14px;
+      color: #828282;
+      margin: 0;
+    }
+    .locadist {
+      font-size: 14px;
+      color: #828282;
+      position: relative;
+      margin: 0;
+      &:before {
+        position: absolute;
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: #828282;
+    border-radius: 50px;
+    left: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+      }
+    }
+  }
+  .locat-perscaps {
+    font-size: 18px;
+    margin:0px;
+    font-weight: 500;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.newlocation-mapdestinslider {
+  background-color: #1F2D2A;
+  padding: 100px 0px 80px;
+  .newmapdestinsliderouter {
+    h4 {
+      color: #fff;
+    }
+  }
 }

@@ -9,6 +9,7 @@ import ActivityExperience from './Component/ActivityExperience';
 import Location from './Component/Location';
 import NewLocation from './Component/NewLocation';
 import NewActivity from './Component/NewActivity';
+import NewMap from './Component/newmap';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route exact path="/location" element={<Location />}></Route>
             <Route exact path="/newlocation" element={<NewLocation />}></Route>
             <Route exact path="/newactivity" element={<NewActivity />}></Route>
+            <Route exact path="/newmap" element={<NewMap />}></Route>
           </Routes>
         </div>
       </Router>
